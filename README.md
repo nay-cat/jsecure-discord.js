@@ -1,7 +1,7 @@
 # jsecure-discord.js 
 # https://www.npmjs.com/package/alpha-jsecure-discord
 
-![https://www.npmjs.com/package/alpha-jsecure-discord](https://cdn.discordapp.com/attachments/760909132370280469/761315999390892092/jscure.png)
+[![Logo](https://www.npmjs.com/package/alpha-jsecure-discord](https://cdn.discordapp.com/attachments/760909132370280469/761315999390892092/jscure.png)](https://www.npmjs.com/package/alpha-jsecure-discord)
 
 # JSecure # discord.js
 Add security commands without having to directly elbow them.
