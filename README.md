@@ -53,3 +53,9 @@ jsecure.commandRemoveIpLoggers();
 jsecure.commandForceBan();
 client.login("TOKEN");
 ```
+### Por cualquier bug avisame a discord / Bugs in Discord
+Nayra#7948
+### In updates / Last Update: 01/10/2020
+#### Si te gusta el npm, puedes seguirme en github // Nayra#7948
+[Issues](https://github.com/xNayra/jsecure-discord.js/issues)
+[TutoBot](https://discord.gg/JGBkpM3)
