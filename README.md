@@ -1,3 +1,4 @@
+este npm es una mierda, las cosas como son XD, te recomiendo usar tu propio código y hacerlo por ti mismo, pero si te da pereza, usa esto.
 # jsecure-discord.js 
 # https://www.npmjs.com/package/alpha-jsecure-discord
 
