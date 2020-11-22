@@ -1,0 +1,14 @@
+{
+  "name": "alpha-jsecure-discord",
+  "version": "1.2.2",
+  "description": "Add security commands without having to directly elbow them / SPANISH / ENGLISH / 1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xnayra",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}

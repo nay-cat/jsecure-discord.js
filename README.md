@@ -1,41 +1,42 @@
-este npm es una mierda, las cosas como son XD, te recomiendo usar tu propio código y hacerlo por ti mismo, pero si te da pereza, usa esto.
-# jsecure-discord.js 
-# https://www.npmjs.com/package/alpha-jsecure-discord
-
-[![Foto JSecure](https://cdn.discordapp.com/attachments/760909132370280469/761315999390892092/jscure.png)](https://www.npmjs.com/package/alpha-jsecure-discord)
-
+[![Foto JSecureNPM](https://cdn.discordapp.com/attachments/760909132370280469/761315999390892092/jscure.png)](https://www.npmjs.com/package/alpha-jsecure-discord)
 # JSecure # discord.js
 Add security commands without having to directly elbow them.
-
-Añade comandos de seguridad sin necesidad de codearlos desde 0.
+# Update 1.2.0
+- Remove getSecureToken and setSecureToken
+- Add Config Options
+- +500 Forceban ID's 
+# Añade comandos de seguridad sin necesidad de codearlos desde 0. 
+# Add Security Commands
 
   - Iplogger Deleter +20 Detections
-  - Forceban System +50 Raiders
+  - Forceban System +500 Raiders
   - Console Log Messages
+  - Message Editor
+  
 # Próximamente / Soon
  - EventSystem Iplogger/Forceban
  - AddID to Forceban System
- - MessageEditor
 
 # Languages
-
+  - Configurable
   - Spanish / Principal / First
   - English
 # How to use ¿Cómo usar?
-```js
-var jsecure = require('alpha-jsecure-discord')
-jsecure.setSecureToken("TOKEN"); // Aquí va el token de tu bot | Here the token of your bot
-```
+
 # Commands / Comandos
 AntiIpLoggers
 ```js
-var jsecure = require('alpha-jsecure-discord')
-jsecure.commandRemoveIpLoggers(); // Command
+// Need :: const jsecure = require ('alpha-jsecure-discord');
+// Variables:
+// %member% - Member send IpLogger // Example:
+// jsecure.commandRemoveIpLoggers("message", "TOKEN");
+jsecure.commandRemoveIpLoggers("%member% send a Iplogger", "TOKEN"); // Command Example
 ```
 Forceban
 ```js
-var jsecure = require('alpha-jsecure-discord')
-jsecure.commandForceBan(); // Command
+// Need :: const jsecure = require ('alpha-jsecure-discord');
+// jsecure.commandForceBan("prefix", "forcebanCommandName", "TOKEN"); 
+jsecure.commandForceBan("!", "forceban", "TOKEN"); // Command Example
 ```
 
 # Example Bot Main / Bot Main Ejemplo
@@ -49,14 +50,24 @@ client.once('ready', () => {
     console.log('Iniciado');
 });
 
-jsecure.setSecureToken("TOKEN");
-jsecure.commandRemoveIpLoggers();
-jsecure.commandForceBan();
+jsecure.commandRemoveIpLoggers("%member% send a Iploggers", "TOKEN-OF-YOUR-BOT");
+jsecure.commandForceBan("!", "forceban", "TOKEN-OF-YOUR-BOT");
 client.login("TOKEN");
 ```
 ### Por cualquier bug avisame a discord / Bugs in Discord
-Nayra#7948
-### In updates / Last Update: 01/10/2020
-#### Si te gusta el npm, puedes seguirme en github // Nayra#7948
+
+[Dev's Lounge](https://discord.gg/CjZWhve) // Support Server 1 
+
+[TutoBot](https://discord.gg/JGBkpM3) // Support Server 2
+### In updates / Last Update: 10/10/2020
+#### Si te gusta el npm, puedes seguirme en github // Follow me in GitHub
+
 [Issues](https://github.com/xNayra/jsecure-discord.js/issues)
+
+[Dev's Lounge](https://discord.gg/CjZWhve)
+
+[GitHub](https://github.com/xNayra/)
+
+#### Other Bots / Otros Bots / Other Servers
 [TutoBot](https://discord.gg/JGBkpM3)
+[SD Security](https://discord.com/oauth2/authorize?client_id=743056607499517952&scope=bot&permissions=8)
